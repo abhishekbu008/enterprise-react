@@ -1,0 +1,82 @@
+/*=============================================
+=            COLORS            =
+=============================================*/
+
+/*----------  Brand Colors  ----------*/
+
+$green: #5ece7b;
+$green-light: #9ee2b0;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+/*----------  Neutral Colors  ----------*/
+
+$gray: #a3a5ad;
+$gray-light: #bebfc4;
+
+$white: #fff;
+$white-black: #f1f2f3;
+
+/*----------  Utility Colors  ----------*/
+
+$red: #d12727;
+$red-light: #f8dedf;
+
+$blue: #0468db;
+$blue-light: #b4d2f4;
+
+/*=====  End of COLORS  ======*/
+
+/*=============================================
+=            Typography            =
+=============================================*/
+
+/* Font Families */
+
+$playfair: "Playfair", serif; /* 1 */
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif; /* 2 */
+
+/* Font Sizes */
+
+$fs-xs: 0.75rem; // 12px
+$fs-sm: 0.875rem; // 14px
+$fs-base: 1rem; // 16px
+$fs-lg: 1.125rem; // 18px
+$fs-xl: 1.5rem; // 24px
+
+/* Heading Font sizes */
+
+$h-1: 1.375rem; // 22px
+$h-2: 1.375rem; // 22px
+$h-3: 1rem; // 16px
+$h-4: 1.125rem; // 18px
+$h-5: 0.75rem; // 12px
+$h-6: 0.75rem; // 12px
+
+/* Font Weight */
+
+$fw-light: 300;
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+$fw-bold: 700;
+$fw-extrabold: 800;
+$fw-black: 900;
+
+/*=====  End of TYPOGRAPHY  ======*/
+
+/*=============================================
+=            BREAKPOINTS            =
+=============================================*/
+
+$breakpoints: (
+  // 78px
+  md: 48rem,
+  // 1124px
+  lg: 64rem,
+  // 1280px
+  xl: 80rem
+);
+
+/*=====  End of BREAKPOINTS  ======*/

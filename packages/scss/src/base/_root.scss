@@ -1,0 +1,41 @@
+:root {
+  /*----------  COLORS  ----------*/
+
+  // Global Text
+  --dse-body-text-color: $dark;
+  --dse-body-bg-color: $white;
+
+  // Buttons
+  --dse-btn-primary-color: $white;
+  --dse-btn-primary-bg: $green;
+  --dse-btn-primary-bg-hover: $green;
+
+  // Fonts
+  --dse-form-color: $dark;
+  --dse-form-bg: $white;
+  --dse-form-error-color: $red;
+  --dse-form-error-border: $red;
+  --dse-form-border-focus-color: $green;
+
+  /*----------  Typography  ----------*/
+
+  // Body font sizes
+  --dse-body-font-size: $fs-sm;
+  --dse-body-font-weight: $fw-normal;
+
+  // Heading font Sizes
+  --dse-h1-font-size: $h-1;
+  --dse-h2-font-size: $h-2;
+  --dse-h3-font-size: $h-3;
+  --dse-h4-font-size: $h-4;
+  --dse-h5-font-size: $h-5;
+  --dse-h6-font-size: $h-6;
+
+  // Heading font weight
+  --dse-h1-font-weight: $fw-black;
+  --dse-h2-font-weight: $fw-semibold;
+  --dse-h3-font-weight: $fw-bold;
+  --dse-h4-font-weight: $fw-medium;
+  --dse-h5-font-weight: $fw-normal;
+  --dse-h6-font-weight: $fw-light;
+}
