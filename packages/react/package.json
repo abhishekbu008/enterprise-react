@@ -1,6 +1,6 @@
 {
   "name": "@ds.e/react",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "lib/index.js",
   "license": "MIT",
   "dependencies": {
@@ -34,7 +34,7 @@
     "start-storybook": "start-storybook",
     "build-storybook": "build-storybook",
     "chromatic": "chromatic --project-token=a320e33ff1c7"
-  },  
+  },
   "publishConfig": {
     "access": "public"
   }
