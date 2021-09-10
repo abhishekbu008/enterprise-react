@@ -10,7 +10,12 @@
   --dse-btn-primary-bg: $green;
   --dse-btn-primary-bg-hover: $green;
 
-  // Fonts
+  // Forms
+  --dse-form-border-color: $white-dark;
+  --dse-form-bg-color: $white;
+  --dse-form-bg-color-hover: $white-dark;
+  --dse-form-bg-color-selected: $green;
+  --dse-form-color-color-selected: $white;
   --dse-form-color: $dark;
   --dse-form-bg: $white;
   --dse-form-error-color: $red;
@@ -22,6 +27,7 @@
   // Body font sizes
   --dse-body-font-size: $fs-sm;
   --dse-body-font-weight: $fw-normal;
+  --dse-body-font-family: $playfair;
 
   // Heading font Sizes
   --dse-h1-font-size: $h-1;

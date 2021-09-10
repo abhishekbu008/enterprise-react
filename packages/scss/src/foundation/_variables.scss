@@ -16,7 +16,7 @@ $gray: #a3a5ad;
 $gray-light: #bebfc4;
 
 $white: #fff;
-$white-black: #f1f2f3;
+$white-dark: #f1f2f3;
 
 /*----------  Utility Colors  ----------*/
 
@@ -80,3 +80,55 @@ $breakpoints: (
 );
 
 /*=====  End of BREAKPOINTS  ======*/
+
+/*=============================================
+=            SPACING            =
+=============================================*/
+
+$spacing: (
+  none: 0rem,
+  // 4px
+  xxxs: 0.25rem,
+  // 8px
+  xxs: 0.5rem,
+  // 12px
+  xs: 0.75rem,
+  // 16px
+  sm: 1rem,
+  // 24px
+  md: 1.5rem,
+  // 32px
+  lg: 2rem,
+  // 48px
+  xl: 3rem,
+  // 72px
+  xxl: 4.5rem,
+  // 96px
+  xxxl: 6rem,
+) !default;
+
+/*=====  End of SPACING  ======*/
+
+/*=============================================
+=            Font Sizes            =
+=============================================*/
+
+$fs: (
+  xs: 0.75rem,
+  // 12px
+  sm: 0.875rem,
+  // 14px
+  base: 1rem,
+  // 16px
+  lg: 1.125rem,
+  // 18px
+  xl: 1.5rem,
+  // 24px
+);
+
+/*=====  End of Font Sizes  ======*/
+
+
+$shadows: (
+  base: 0px 4px 11px rgba(157, 157, 157, 0.21)
+)

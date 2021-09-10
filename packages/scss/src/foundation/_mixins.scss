@@ -16,6 +16,14 @@
   }
 }
 
+@mixin padding($space) {
+  padding: map-get($map: $spacing, $key: $space);
+}
+
+@mixin margin($space) {
+  margin: map-get($map: $spacing, $key: $space);
+}
+
 // .body {
 //   font-size: 12px;
 
