@@ -1,0 +1,117 @@
+/*=============================================
+=            COLORS            =
+=============================================*/
+/*----------  Brand Colors  ----------*/
+/*----------  Neutral Colors  ----------*/
+/*----------  Utility Colors  ----------*/
+/*=====  End of COLORS  ======*/
+/*=============================================
+=            Typography            =
+=============================================*/
+/* Font Families */
+/* 1 */
+/* 2 */
+/* Font Sizes */
+/* Heading Font sizes */
+/* Font Weight */
+/*=====  End of TYPOGRAPHY  ======*/
+/*=============================================
+=            BREAKPOINTS            =
+=============================================*/
+/*=====  End of BREAKPOINTS  ======*/
+/*=============================================
+=            SPACING            =
+=============================================*/
+/*=====  End of SPACING  ======*/
+/*=============================================
+=            Font Sizes            =
+=============================================*/
+/*=====  End of Font Sizes  ======*/
+/*=============================================
+=            Global text colors            =
+=============================================*/
+/*=====  End of Global text colors  ======*/
+/*=============================================
+=            Buttons            =
+=============================================*/
+/*=====  End of Buttons  ======*/
+/*=============================================
+=            Forms            =
+=============================================*/
+/*=====  End of Forms  ======*/
+/*=============================================
+=            Body font sizes            =
+=============================================*/
+/*=====  End of Body font sizes  ======*/
+/*=============================================
+=            Heading font Sizes            =
+=============================================*/
+/*=====  End of Heading font Sizes  ======*/
+/*=============================================
+=            Heading font weight            =
+=============================================*/
+/*=====  End of Heading font weight  ======*/
+.dse-select {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.dse-select__label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border: 1px solid var(--dse-form-border-color, #f1f2f3);
+  background: var(--dse-form-bg-color, #fff);
+  font-family: var(--dse-body-font-family, "Playfair", serif);
+  cursor: pointer;
+}
+
+.dse-select__caret {
+  transition: all 250ms ease;
+}
+
+.dse-select__caret--open {
+  transform: rotate(180deg);
+}
+
+.dse-select__caret--closed {
+  transform: rotate(0deg);
+}
+
+.dse-select__overlay {
+  padding: 0rem;
+  margin: 0rem;
+  list-style-type: none;
+  display: none;
+  border: 1px solid var(--dse-form-border-color, #f1f2f3);
+  background-color: var(--dse-form-bg-color, #fff);
+  z-index: 99;
+  box-shadow: 0px 4px 11px rgba(157, 157, 157, 0.21);
+  position: absolute;
+  width: 100%;
+}
+
+.dse-select__option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 0.75rem;
+}
+
+.dse-select__option--highlighted {
+  background-color: var(--dse-form-bg-color-hover, #f1f2f3);
+}
+
+.dse-select__option--selected {
+  background-color: var(--dse-form-bg-color-selected, #5ece7b);
+  color: var(--dse-form-color-color-selected, #fff);
+}
+
+.dse-select__overlay--open {
+  display: block;
+}
